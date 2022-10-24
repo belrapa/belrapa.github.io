@@ -1,0 +1,114 @@
+baseURL = 'https://belrapa.github.io/'
+languageCode = 'es-ES'
+theme = "sada"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    name = "Portf-CV"
+    title = "Portfolio"
+    author = "Darshan Baral"
+    description = "Sobre mi"
+    copyright = "Custom copyright message"
+    theme = "light" # `dark` or `light`
+    useResources = false
+
+    # Profile section
+    [params.profile]
+        name = "Pablo Ramón Beltrán"
+        photo = "images/cav.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin-in"
+        url = "#"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        icon = "fab fa-github"
+        url = "#"
+        title = "GitHub"
+		
+		
+    # Education section
+    [params.education]
+        title = "Estudios"
+
+        [[params.education.list]]
+        degree = "Grado superior DAW"
+        college = "CPIFP los enlaces"
+        dates = "2020 - actualidad"
+       
+
+        [[params.education.list]]
+        degree = "Grado superior Marketing y Publicidad"
+        college = "CPIFP Los Enlaces"
+        dates = "2016 - 2018"
+
+    # Languages section
+    [params.language]
+        title = "Idiomas"
+
+        [[params.language.list]]
+        language = "Ingles"
+        level = "Medio"
+				
+        [[params.language.list]]
+        language = "Español"
+        level = "Fluido"
+
+    # Interests section
+    [params.hobbies]
+        title = "Hobbies"
+
+        [[params.hobbies.list]]
+        interest = "Tenis"
+		
+		[[params.hobbies.list]]
+        interest = "Musica"
+
+        [[params.hobbies.list]]
+        interest = "Ver series y peliculas"
+
+        [[params.hobbies.list]]
+        interest = "Probar comida nueva"
+
+    [params.aboutme]
+        description = "Soy apasionado del trabajo en el que me dedico, con una actitud positiva ya bierto a nuevos retos."
+
+    # Experiences section
+    [params.experiences]
+        title = "Experiencia"
+
+        [[params.jobs.list]]
+        position = "GFK"
+        dates = "2018 - *Present*"
+		link = "#"
+        company = "GFK"
+        details = "Investigación de mercado"
+
+        [[params.jobs.list]]
+        position = "VEA global"
+        dates = "2019 - 2021"
+		link = "#"
+        company = "VEA global"
+        details = "Encuestador"
+
+    
+    # Skills section
+    [params.skills]
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "SEO, SEM"
+        skillrating = 95 # out of 100
+                
+        [[params.skills.list]]
+        skill = "SOCIAL MEDIA"
+        skillrating = 90
+		
+        [[params.skills.list]]
+        skill = "VENTAS"
+        skillrating = 80
